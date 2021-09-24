@@ -1,0 +1,1237 @@
+18:54:21.408 [run-main-0] INFO  c.R.cloudsim.Simulation4$ - Best Fit VM allocation policy. Network Datacenter. 
+18:54:21.554 [run-main-0] INFO  c.R.c.u.P.ProviderUtils$ - Choosing TimeShared
+18:54:21.555 [run-main-0] INFO  c.R.c.u.P.ProviderUtils$ - Choosing TimeShared
+18:54:23.247 [run-main-0] INFO  c.R.c.u.P.ProviderUtils$ - List(org.cloudbus.cloudsim.network.switches.EdgeSwitch@d8b9cdd0, org.cloudbus.cloudsim.network.switches.EdgeSwitch@d8b9cdd1, org.cloudbus.cloudsim.network.switches.EdgeSwitch@d8b9cdd2, org.cloudbus.cloudsim.network.switches.EdgeSwitch@d8b9cdd3, org.cloudbus.cloudsim.network.switches.EdgeSwitch@d8b9cdd4, org.cloudbus.cloudsim.network.switches.EdgeSwitch@d8b9cdd5, org.cloudbus.cloudsim.network.switches.EdgeSwitch@d8b9cdd6, org.cloudbus.cloudsim.network.switches.EdgeSwitch@d8b9cdd7, org.cloudbus.cloudsim.network.switches.EdgeSwitch@d8b9cdd8, org.cloudbus.cloudsim.network.switches.EdgeSwitch@d8b9cdd9, org.cloudbus.cloudsim.network.switches.EdgeSwitch@d8b9cdda, org.cloudbus.cloudsim.network.switches.EdgeSwitch@d8b9cddb)
+18:54:23.251 [run-main-0] INFO  c.R.c.u.P.SwitchUtils$ - class org.cloudbus.cloudsim.network.switches.RootSwitch
+18:54:23.254 [run-main-0] INFO  c.R.c.u.P.SwitchUtils$ - Switch Num: 0
+18:54:23.254 [run-main-0] INFO  c.R.c.u.P.SwitchUtils$ - Switch Num: 0
+18:54:23.274 [run-main-0] INFO  CloudSim - 
+================== Starting CloudSim Plus 5.4.3 ==================
+
+18:54:23.275 [run-main-0] INFO  Datacenter - NetworkDatacenter1 is starting...
+18:54:23.276 [run-main-0] INFO  AbstractSwitch - EdgeSwitch2 is starting...
+18:54:23.276 [run-main-0] INFO  AbstractSwitch - EdgeSwitch3 is starting...
+18:54:23.277 [run-main-0] INFO  AbstractSwitch - EdgeSwitch4 is starting...
+18:54:23.277 [run-main-0] INFO  AbstractSwitch - EdgeSwitch5 is starting...
+18:54:23.277 [run-main-0] INFO  AbstractSwitch - EdgeSwitch6 is starting...
+18:54:23.277 [run-main-0] INFO  AbstractSwitch - EdgeSwitch7 is starting...
+18:54:23.277 [run-main-0] INFO  AbstractSwitch - EdgeSwitch8 is starting...
+18:54:23.277 [run-main-0] INFO  AbstractSwitch - EdgeSwitch9 is starting...
+18:54:23.277 [run-main-0] INFO  AbstractSwitch - EdgeSwitch10 is starting...
+18:54:23.277 [run-main-0] INFO  AbstractSwitch - EdgeSwitch11 is starting...
+18:54:23.277 [run-main-0] INFO  AbstractSwitch - EdgeSwitch12 is starting...
+18:54:23.277 [run-main-0] INFO  AbstractSwitch - EdgeSwitch13 is starting...
+18:54:23.277 [run-main-0] INFO  AbstractSwitch - RootSwitch14 is starting...
+18:54:23.277 [run-main-0] INFO  AbstractSwitch - AggregateSwitch15 is starting...
+18:54:23.277 [run-main-0] INFO  AbstractSwitch - AggregateSwitch16 is starting...
+18:54:23.277 [run-main-0] INFO  AbstractSwitch - AggregateSwitch17 is starting...
+18:54:23.277 [run-main-0] INFO  DatacenterBroker - DatacenterBrokerSimple18 is starting...
+18:54:23.277 [run-main-0] INFO  CloudSim - Entities started.
+18:54:23.284 [run-main-0] INFO  DatacenterBroker - 0.00: DatacenterBrokerSimple18: List of 1 datacenters(s) received.
+18:54:23.284 [run-main-0] INFO  DatacenterBroker - 0.00: DatacenterBrokerSimple18: Trying to create Vm 0 in NetworkDatacenter1
+18:54:23.290 [run-main-0] INFO  DatacenterBroker - 0.00: DatacenterBrokerSimple18: Trying to create Vm 1 in NetworkDatacenter1
+18:54:23.291 [run-main-0] INFO  DatacenterBroker - 0.00: DatacenterBrokerSimple18: Trying to create Vm 2 in NetworkDatacenter1
+18:54:23.291 [run-main-0] INFO  DatacenterBroker - 0.00: DatacenterBrokerSimple18: Trying to create Vm 3 in NetworkDatacenter1
+18:54:23.291 [run-main-0] INFO  DatacenterBroker - 0.00: DatacenterBrokerSimple18: Trying to create Vm 4 in NetworkDatacenter1
+18:54:23.310 [run-main-0] INFO  VmAllocationPolicy - 0.00: VmAllocationPolicyBestFit: Vm 0 has been allocated to Host 0/DC 1
+18:54:23.312 [run-main-0] INFO  VmAllocationPolicy - 0.00: VmAllocationPolicyBestFit: Vm 1 has been allocated to Host 1/DC 1
+18:54:23.316 [run-main-0] INFO  VmAllocationPolicy - 0.00: VmAllocationPolicyBestFit: Vm 2 has been allocated to Host 1/DC 1
+18:54:23.317 [run-main-0] INFO  VmAllocationPolicy - 0.00: VmAllocationPolicyBestFit: Vm 3 has been allocated to Host 1/DC 1
+18:54:23.317 [run-main-0] WARN  VmAllocationPolicy - 0.00: VmAllocationPolicyBestFit: No suitable host found for Vm 4 in Datacenter 1
+18:54:23.320 [run-main-0] ERROR DatacenterBroker - 0.10: DatacenterBrokerSimple18: 1 of the requested 5 VMs couldn't be created because suitable Hosts weren't found in any available Datacenter.
+18:54:23.320 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 0 to Vm 0 in Host 0/DC 1.
+18:54:23.320 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 1 to Vm 1 in Host 1/DC 1.
+18:54:23.320 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 2 to Vm 2 in Host 1/DC 1.
+18:54:23.320 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 3 to Vm 3 in Host 1/DC 1.
+18:54:23.320 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 4 to Vm 0 in Host 0/DC 1.
+18:54:23.320 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 5 to Vm 1 in Host 1/DC 1.
+18:54:23.320 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 6 to Vm 2 in Host 1/DC 1.
+18:54:23.321 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 7 to Vm 3 in Host 1/DC 1.
+18:54:23.321 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 8 to Vm 0 in Host 0/DC 1.
+18:54:23.322 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 9 to Vm 1 in Host 1/DC 1.
+18:54:23.323 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 10 to Vm 2 in Host 1/DC 1.
+18:54:23.323 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 11 to Vm 3 in Host 1/DC 1.
+18:54:23.323 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 12 to Vm 0 in Host 0/DC 1.
+18:54:23.323 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 13 to Vm 1 in Host 1/DC 1.
+18:54:23.323 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 14 to Vm 2 in Host 1/DC 1.
+18:54:23.323 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 15 to Vm 3 in Host 1/DC 1.
+18:54:23.324 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 16 to Vm 0 in Host 0/DC 1.
+18:54:23.324 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 17 to Vm 1 in Host 1/DC 1.
+18:54:23.324 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 18 to Vm 2 in Host 1/DC 1.
+18:54:23.324 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 19 to Vm 3 in Host 1/DC 1.
+18:54:23.324 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 20 to Vm 0 in Host 0/DC 1.
+18:54:23.326 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 21 to Vm 1 in Host 1/DC 1.
+18:54:23.326 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 22 to Vm 2 in Host 1/DC 1.
+18:54:23.326 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 23 to Vm 3 in Host 1/DC 1.
+18:54:23.326 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 24 to Vm 0 in Host 0/DC 1.
+18:54:23.326 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 25 to Vm 1 in Host 1/DC 1.
+18:54:23.326 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 26 to Vm 2 in Host 1/DC 1.
+18:54:23.326 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 27 to Vm 3 in Host 1/DC 1.
+18:54:23.327 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 28 to Vm 0 in Host 0/DC 1.
+18:54:23.327 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 29 to Vm 1 in Host 1/DC 1.
+18:54:23.327 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 30 to Vm 2 in Host 1/DC 1.
+18:54:23.327 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 31 to Vm 3 in Host 1/DC 1.
+18:54:23.327 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 32 to Vm 0 in Host 0/DC 1.
+18:54:23.327 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 33 to Vm 1 in Host 1/DC 1.
+18:54:23.328 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 34 to Vm 2 in Host 1/DC 1.
+18:54:23.329 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 35 to Vm 3 in Host 1/DC 1.
+18:54:23.330 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 36 to Vm 0 in Host 0/DC 1.
+18:54:23.330 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 37 to Vm 1 in Host 1/DC 1.
+18:54:23.330 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 38 to Vm 2 in Host 1/DC 1.
+18:54:23.330 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 39 to Vm 3 in Host 1/DC 1.
+18:54:23.330 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 40 to Vm 0 in Host 0/DC 1.
+18:54:23.330 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 41 to Vm 1 in Host 1/DC 1.
+18:54:23.330 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 42 to Vm 2 in Host 1/DC 1.
+18:54:23.330 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 43 to Vm 3 in Host 1/DC 1.
+18:54:23.330 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 44 to Vm 0 in Host 0/DC 1.
+18:54:23.331 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 45 to Vm 1 in Host 1/DC 1.
+18:54:23.331 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 46 to Vm 2 in Host 1/DC 1.
+18:54:23.331 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 47 to Vm 3 in Host 1/DC 1.
+18:54:23.331 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 48 to Vm 0 in Host 0/DC 1.
+18:54:23.331 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 49 to Vm 1 in Host 1/DC 1.
+18:54:23.331 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 50 to Vm 2 in Host 1/DC 1.
+18:54:23.332 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 51 to Vm 3 in Host 1/DC 1.
+18:54:23.332 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 52 to Vm 0 in Host 0/DC 1.
+18:54:23.334 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 53 to Vm 1 in Host 1/DC 1.
+18:54:23.339 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 54 to Vm 2 in Host 1/DC 1.
+18:54:23.340 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 55 to Vm 3 in Host 1/DC 1.
+18:54:23.340 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 56 to Vm 0 in Host 0/DC 1.
+18:54:23.341 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 57 to Vm 1 in Host 1/DC 1.
+18:54:23.341 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 58 to Vm 2 in Host 1/DC 1.
+18:54:23.341 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 59 to Vm 3 in Host 1/DC 1.
+18:54:23.341 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 60 to Vm 0 in Host 0/DC 1.
+18:54:23.342 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 61 to Vm 1 in Host 1/DC 1.
+18:54:23.342 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 62 to Vm 2 in Host 1/DC 1.
+18:54:23.342 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 63 to Vm 3 in Host 1/DC 1.
+18:54:23.342 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 64 to Vm 0 in Host 0/DC 1.
+18:54:23.342 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 65 to Vm 1 in Host 1/DC 1.
+18:54:23.342 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 66 to Vm 2 in Host 1/DC 1.
+18:54:23.342 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 67 to Vm 3 in Host 1/DC 1.
+18:54:23.342 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 68 to Vm 0 in Host 0/DC 1.
+18:54:23.342 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 69 to Vm 1 in Host 1/DC 1.
+18:54:23.342 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 70 to Vm 2 in Host 1/DC 1.
+18:54:23.342 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 71 to Vm 3 in Host 1/DC 1.
+18:54:23.342 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 72 to Vm 0 in Host 0/DC 1.
+18:54:23.343 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 73 to Vm 1 in Host 1/DC 1.
+18:54:23.346 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 74 to Vm 2 in Host 1/DC 1.
+18:54:23.346 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 75 to Vm 3 in Host 1/DC 1.
+18:54:23.346 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 76 to Vm 0 in Host 0/DC 1.
+18:54:23.346 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 77 to Vm 1 in Host 1/DC 1.
+18:54:23.346 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 78 to Vm 2 in Host 1/DC 1.
+18:54:23.347 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 79 to Vm 3 in Host 1/DC 1.
+18:54:23.347 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 80 to Vm 0 in Host 0/DC 1.
+18:54:23.347 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 81 to Vm 1 in Host 1/DC 1.
+18:54:23.347 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 82 to Vm 2 in Host 1/DC 1.
+18:54:23.347 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 83 to Vm 3 in Host 1/DC 1.
+18:54:23.347 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 84 to Vm 0 in Host 0/DC 1.
+18:54:23.347 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 85 to Vm 1 in Host 1/DC 1.
+18:54:23.347 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 86 to Vm 2 in Host 1/DC 1.
+18:54:23.347 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 87 to Vm 3 in Host 1/DC 1.
+18:54:23.347 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 88 to Vm 0 in Host 0/DC 1.
+18:54:23.347 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 89 to Vm 1 in Host 1/DC 1.
+18:54:23.347 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 90 to Vm 2 in Host 1/DC 1.
+18:54:23.347 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 91 to Vm 3 in Host 1/DC 1.
+18:54:23.348 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 92 to Vm 0 in Host 0/DC 1.
+18:54:23.348 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 93 to Vm 1 in Host 1/DC 1.
+18:54:23.348 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 94 to Vm 2 in Host 1/DC 1.
+18:54:23.348 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 95 to Vm 3 in Host 1/DC 1.
+18:54:23.348 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 96 to Vm 0 in Host 0/DC 1.
+18:54:23.348 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 97 to Vm 1 in Host 1/DC 1.
+18:54:23.351 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 98 to Vm 2 in Host 1/DC 1.
+18:54:23.351 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: Sending Cloudlet 99 to Vm 3 in Host 1/DC 1.
+18:54:23.351 [run-main-0] INFO  DatacenterBroker - 0.10: DatacenterBrokerSimple18: All waiting Cloudlets submitted to some VM.
+18:54:23.368 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 4 requested 768 MB of Ram but no amount is available.
+18:54:23.368 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 8 requested 768 MB of Ram but no amount is available.
+18:54:23.368 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 12 requested 768 MB of Ram but no amount is available.
+18:54:23.368 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 16 requested 768 MB of Ram but no amount is available.
+18:54:23.368 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 20 requested 768 MB of Ram but no amount is available.
+18:54:23.368 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 24 requested 768 MB of Ram but no amount is available.
+18:54:23.368 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 28 requested 768 MB of Ram but no amount is available.
+18:54:23.368 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 32 requested 768 MB of Ram but no amount is available.
+18:54:23.368 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 36 requested 768 MB of Ram but no amount is available.
+18:54:23.368 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 40 requested 768 MB of Ram but no amount is available.
+18:54:23.369 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 44 requested 768 MB of Ram but no amount is available.
+18:54:23.369 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 48 requested 768 MB of Ram but no amount is available.
+18:54:23.369 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 52 requested 768 MB of Ram but no amount is available.
+18:54:23.369 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 56 requested 768 MB of Ram but no amount is available.
+18:54:23.369 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 60 requested 768 MB of Ram but no amount is available.
+18:54:23.369 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 64 requested 768 MB of Ram but no amount is available.
+18:54:23.369 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 68 requested 768 MB of Ram but no amount is available.
+18:54:23.369 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 72 requested 768 MB of Ram but no amount is available.
+18:54:23.369 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 76 requested 768 MB of Ram but no amount is available.
+18:54:23.369 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 80 requested 768 MB of Ram but no amount is available.
+18:54:23.369 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 84 requested 768 MB of Ram but no amount is available.
+18:54:23.370 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 88 requested 768 MB of Ram but no amount is available.
+18:54:23.370 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 92 requested 768 MB of Ram but no amount is available.
+18:54:23.370 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 96 requested 768 MB of Ram but no amount is available.
+18:54:23.370 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 4 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.370 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 8 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.370 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 12 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.371 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 16 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.371 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 20 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.371 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 24 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.371 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 28 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.371 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 32 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.371 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 36 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.371 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 40 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.371 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 44 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.371 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 48 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.372 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 52 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.373 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 56 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.373 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 60 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.373 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 64 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.373 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 68 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.373 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 72 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.373 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 76 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.373 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 80 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.373 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 84 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.373 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 88 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.373 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 92 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.374 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 96 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.379 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 5 requested 768 MB of Ram but no amount is available.
+18:54:23.379 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 9 requested 768 MB of Ram but no amount is available.
+18:54:23.379 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 13 requested 768 MB of Ram but no amount is available.
+18:54:23.380 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 17 requested 768 MB of Ram but no amount is available.
+18:54:23.380 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 21 requested 768 MB of Ram but no amount is available.
+18:54:23.380 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 25 requested 768 MB of Ram but no amount is available.
+18:54:23.380 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 29 requested 768 MB of Ram but no amount is available.
+18:54:23.380 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 33 requested 768 MB of Ram but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 37 requested 768 MB of Ram but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 41 requested 768 MB of Ram but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 45 requested 768 MB of Ram but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 49 requested 768 MB of Ram but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 53 requested 768 MB of Ram but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 57 requested 768 MB of Ram but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 61 requested 768 MB of Ram but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 65 requested 768 MB of Ram but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 69 requested 768 MB of Ram but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 73 requested 768 MB of Ram but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 77 requested 768 MB of Ram but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 81 requested 768 MB of Ram but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 85 requested 768 MB of Ram but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 89 requested 768 MB of Ram but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 93 requested 768 MB of Ram but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 97 requested 768 MB of Ram but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 5 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 9 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 13 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 17 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 21 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 25 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 29 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.381 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 33 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.382 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 37 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.382 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 41 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.382 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 45 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.382 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 49 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.382 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 53 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.382 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 57 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.382 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 61 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.382 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 65 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.382 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 69 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.382 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 73 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.382 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 77 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.382 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 81 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.382 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 85 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.382 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 89 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.382 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 93 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.382 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 97 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.386 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 6 requested 768 MB of Ram but no amount is available.
+18:54:23.386 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 10 requested 768 MB of Ram but no amount is available.
+18:54:23.386 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 14 requested 768 MB of Ram but no amount is available.
+18:54:23.386 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 18 requested 768 MB of Ram but no amount is available.
+18:54:23.387 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 22 requested 768 MB of Ram but no amount is available.
+18:54:23.387 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 26 requested 768 MB of Ram but no amount is available.
+18:54:23.387 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 30 requested 768 MB of Ram but no amount is available.
+18:54:23.387 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 34 requested 768 MB of Ram but no amount is available.
+18:54:23.388 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 38 requested 768 MB of Ram but no amount is available.
+18:54:23.388 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 42 requested 768 MB of Ram but no amount is available.
+18:54:23.388 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 46 requested 768 MB of Ram but no amount is available.
+18:54:23.388 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 50 requested 768 MB of Ram but no amount is available.
+18:54:23.388 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 54 requested 768 MB of Ram but no amount is available.
+18:54:23.388 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 58 requested 768 MB of Ram but no amount is available.
+18:54:23.388 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 62 requested 768 MB of Ram but no amount is available.
+18:54:23.388 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 66 requested 768 MB of Ram but no amount is available.
+18:54:23.388 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 70 requested 768 MB of Ram but no amount is available.
+18:54:23.388 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 74 requested 768 MB of Ram but no amount is available.
+18:54:23.388 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 78 requested 768 MB of Ram but no amount is available.
+18:54:23.388 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 82 requested 768 MB of Ram but no amount is available.
+18:54:23.388 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 86 requested 768 MB of Ram but no amount is available.
+18:54:23.388 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 90 requested 768 MB of Ram but no amount is available.
+18:54:23.390 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 94 requested 768 MB of Ram but no amount is available.
+18:54:23.391 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 98 requested 768 MB of Ram but no amount is available.
+18:54:23.392 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 6 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.393 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 10 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.395 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 14 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.396 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 18 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.396 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 22 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.396 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 26 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.396 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 30 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.396 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 34 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.396 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 38 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.396 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 42 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.396 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 46 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.396 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 50 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.396 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 54 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.396 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 58 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.396 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 62 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.396 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 66 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.397 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 70 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.397 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 74 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.397 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 78 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.397 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 82 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.397 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 86 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.397 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 90 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.397 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 94 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.398 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 98 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.401 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 7 requested 768 MB of Ram but no amount is available.
+18:54:23.401 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 11 requested 768 MB of Ram but no amount is available.
+18:54:23.401 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 15 requested 768 MB of Ram but no amount is available.
+18:54:23.402 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 19 requested 768 MB of Ram but no amount is available.
+18:54:23.402 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 23 requested 768 MB of Ram but no amount is available.
+18:54:23.403 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 27 requested 768 MB of Ram but no amount is available.
+18:54:23.404 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 31 requested 768 MB of Ram but no amount is available.
+18:54:23.405 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 35 requested 768 MB of Ram but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 39 requested 768 MB of Ram but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 43 requested 768 MB of Ram but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 47 requested 768 MB of Ram but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 51 requested 768 MB of Ram but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 55 requested 768 MB of Ram but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 59 requested 768 MB of Ram but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 63 requested 768 MB of Ram but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 67 requested 768 MB of Ram but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 71 requested 768 MB of Ram but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 75 requested 768 MB of Ram but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 79 requested 768 MB of Ram but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 83 requested 768 MB of Ram but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 87 requested 768 MB of Ram but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 91 requested 768 MB of Ram but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 95 requested 768 MB of Ram but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 99 requested 768 MB of Ram but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 7 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 11 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 15 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 19 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 23 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 27 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 31 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 35 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.406 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 39 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.407 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 43 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.407 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 47 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.407 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 51 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.407 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 55 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.407 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 59 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.407 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 63 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.407 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 67 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.407 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 71 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.407 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 75 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.407 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 79 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.407 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 83 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.407 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 87 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.407 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 91 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.407 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 95 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.407 [run-main-0] WARN  CloudletScheduler - 3.43: CloudletSchedulerTimeShared: Cloudlet 99 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.409 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 4 requested 768 MB of Ram but no amount is available.
+18:54:23.411 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 8 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 12 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 16 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 20 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 24 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 28 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 32 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 36 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 40 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 44 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 48 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 52 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 56 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 60 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 64 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 68 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 72 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 76 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 80 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 84 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 88 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 92 requested 768 MB of Ram but no amount is available.
+18:54:23.412 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 96 requested 768 MB of Ram but no amount is available.
+18:54:23.413 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 4 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.413 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 8 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.413 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 12 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.413 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 16 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.413 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 20 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.413 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 24 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.413 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 28 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.413 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 32 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.413 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 36 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.413 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 40 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.413 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 44 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.413 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 48 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.413 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 52 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.413 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 56 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.413 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 60 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.413 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 64 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.414 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 68 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.414 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 72 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.414 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 76 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.414 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 80 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.414 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 84 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.414 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 88 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.414 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 92 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.414 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 96 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.415 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 5 requested 768 MB of Ram but no amount is available.
+18:54:23.416 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 9 requested 768 MB of Ram but no amount is available.
+18:54:23.416 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 13 requested 768 MB of Ram but no amount is available.
+18:54:23.416 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 17 requested 768 MB of Ram but no amount is available.
+18:54:23.416 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 21 requested 768 MB of Ram but no amount is available.
+18:54:23.416 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 25 requested 768 MB of Ram but no amount is available.
+18:54:23.416 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 29 requested 768 MB of Ram but no amount is available.
+18:54:23.416 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 33 requested 768 MB of Ram but no amount is available.
+18:54:23.416 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 37 requested 768 MB of Ram but no amount is available.
+18:54:23.416 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 41 requested 768 MB of Ram but no amount is available.
+18:54:23.416 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 45 requested 768 MB of Ram but no amount is available.
+18:54:23.416 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 49 requested 768 MB of Ram but no amount is available.
+18:54:23.416 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 53 requested 768 MB of Ram but no amount is available.
+18:54:23.416 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 57 requested 768 MB of Ram but no amount is available.
+18:54:23.417 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 61 requested 768 MB of Ram but no amount is available.
+18:54:23.417 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 65 requested 768 MB of Ram but no amount is available.
+18:54:23.417 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 69 requested 768 MB of Ram but no amount is available.
+18:54:23.417 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 73 requested 768 MB of Ram but no amount is available.
+18:54:23.417 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 77 requested 768 MB of Ram but no amount is available.
+18:54:23.417 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 81 requested 768 MB of Ram but no amount is available.
+18:54:23.417 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 85 requested 768 MB of Ram but no amount is available.
+18:54:23.417 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 89 requested 768 MB of Ram but no amount is available.
+18:54:23.417 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 93 requested 768 MB of Ram but no amount is available.
+18:54:23.417 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 97 requested 768 MB of Ram but no amount is available.
+18:54:23.417 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 5 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.417 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 9 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.418 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 13 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.418 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 17 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.418 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 21 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.418 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 25 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.418 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 29 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.418 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 33 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.418 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 37 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.418 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 41 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.418 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 45 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.418 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 49 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.418 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 53 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.418 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 57 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.418 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 61 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.419 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 65 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.419 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 69 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.420 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 73 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.420 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 77 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.420 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 81 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.420 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 85 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.420 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 89 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.420 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 93 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.421 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 97 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 6 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 10 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 14 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 18 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 22 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 26 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 30 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 34 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 38 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 42 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 46 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 50 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 54 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 58 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 62 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 66 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 70 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 74 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 78 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 82 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 86 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 90 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 94 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 98 requested 768 MB of Ram but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 6 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 10 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 14 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 18 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 22 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 26 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.423 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 30 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.424 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 34 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.424 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 38 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.424 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 42 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.424 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 46 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.424 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 50 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.424 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 54 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.424 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 58 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.424 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 62 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.424 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 66 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.424 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 70 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.424 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 74 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.424 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 78 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.424 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 82 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.424 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 86 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.424 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 90 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.424 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 94 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.424 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 98 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.425 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 7 requested 768 MB of Ram but no amount is available.
+18:54:23.425 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 11 requested 768 MB of Ram but no amount is available.
+18:54:23.425 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 15 requested 768 MB of Ram but no amount is available.
+18:54:23.425 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 19 requested 768 MB of Ram but no amount is available.
+18:54:23.425 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 23 requested 768 MB of Ram but no amount is available.
+18:54:23.426 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 27 requested 768 MB of Ram but no amount is available.
+18:54:23.426 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 31 requested 768 MB of Ram but no amount is available.
+18:54:23.426 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 35 requested 768 MB of Ram but no amount is available.
+18:54:23.426 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 39 requested 768 MB of Ram but no amount is available.
+18:54:23.426 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 43 requested 768 MB of Ram but no amount is available.
+18:54:23.426 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 47 requested 768 MB of Ram but no amount is available.
+18:54:23.426 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 51 requested 768 MB of Ram but no amount is available.
+18:54:23.426 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 55 requested 768 MB of Ram but no amount is available.
+18:54:23.426 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 59 requested 768 MB of Ram but no amount is available.
+18:54:23.426 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 63 requested 768 MB of Ram but no amount is available.
+18:54:23.426 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 67 requested 768 MB of Ram but no amount is available.
+18:54:23.426 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 71 requested 768 MB of Ram but no amount is available.
+18:54:23.427 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 75 requested 768 MB of Ram but no amount is available.
+18:54:23.427 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 79 requested 768 MB of Ram but no amount is available.
+18:54:23.427 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 83 requested 768 MB of Ram but no amount is available.
+18:54:23.427 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 87 requested 768 MB of Ram but no amount is available.
+18:54:23.427 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 91 requested 768 MB of Ram but no amount is available.
+18:54:23.427 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 95 requested 768 MB of Ram but no amount is available.
+18:54:23.427 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 99 requested 768 MB of Ram but no amount is available.
+18:54:23.427 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 7 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.427 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 11 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.427 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 15 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.427 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 19 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.427 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 23 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.427 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 27 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.428 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 31 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.428 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 35 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.429 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 39 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.430 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 43 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.430 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 47 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.430 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 51 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.430 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 55 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.430 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 59 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.430 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 63 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.430 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 67 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.430 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 71 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.430 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 75 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.430 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 79 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.430 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 83 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.430 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 87 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.430 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 91 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.430 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 95 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.430 [run-main-0] WARN  CloudletScheduler - 41.33: CloudletSchedulerTimeShared: Cloudlet 99 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.432 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 4 requested 768 MB of Ram but no amount is available.
+18:54:23.434 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 8 requested 768 MB of Ram but no amount is available.
+18:54:23.435 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 12 requested 768 MB of Ram but no amount is available.
+18:54:23.436 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 16 requested 768 MB of Ram but no amount is available.
+18:54:23.436 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 20 requested 768 MB of Ram but no amount is available.
+18:54:23.436 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 24 requested 768 MB of Ram but no amount is available.
+18:54:23.436 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 28 requested 768 MB of Ram but no amount is available.
+18:54:23.436 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 32 requested 768 MB of Ram but no amount is available.
+18:54:23.436 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 36 requested 768 MB of Ram but no amount is available.
+18:54:23.436 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 40 requested 768 MB of Ram but no amount is available.
+18:54:23.436 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 44 requested 768 MB of Ram but no amount is available.
+18:54:23.436 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 48 requested 768 MB of Ram but no amount is available.
+18:54:23.436 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 52 requested 768 MB of Ram but no amount is available.
+18:54:23.436 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 56 requested 768 MB of Ram but no amount is available.
+18:54:23.436 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 60 requested 768 MB of Ram but no amount is available.
+18:54:23.436 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 64 requested 768 MB of Ram but no amount is available.
+18:54:23.436 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 68 requested 768 MB of Ram but no amount is available.
+18:54:23.436 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 72 requested 768 MB of Ram but no amount is available.
+18:54:23.436 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 76 requested 768 MB of Ram but no amount is available.
+18:54:23.436 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 80 requested 768 MB of Ram but no amount is available.
+18:54:23.436 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 84 requested 768 MB of Ram but no amount is available.
+18:54:23.436 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 88 requested 768 MB of Ram but no amount is available.
+18:54:23.437 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 92 requested 768 MB of Ram but no amount is available.
+18:54:23.438 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 96 requested 768 MB of Ram but no amount is available.
+18:54:23.438 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 4 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.438 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 8 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.438 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 12 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.438 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 16 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.438 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 20 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.438 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 24 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.439 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 28 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.439 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 32 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.439 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 36 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.439 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 40 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.439 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 44 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.439 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 48 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.439 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 52 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.439 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 56 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.439 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 60 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.439 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 64 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.439 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 68 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.439 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 72 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.439 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 76 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.439 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 80 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.439 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 84 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.439 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 88 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.439 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 92 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.439 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 96 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.440 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 5 requested 768 MB of Ram but no amount is available.
+18:54:23.441 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 9 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 13 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 17 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 21 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 25 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 29 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 33 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 37 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 41 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 45 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 49 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 53 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 57 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 61 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 65 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 69 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 73 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 77 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 81 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 85 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 89 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 93 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 97 requested 768 MB of Ram but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 5 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 9 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 13 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 17 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 21 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 25 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 29 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 33 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 37 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 41 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.442 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 45 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.443 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 49 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.443 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 53 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.443 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 57 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.443 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 61 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.443 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 65 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.443 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 69 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.443 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 73 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.443 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 77 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.443 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 81 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.443 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 85 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.443 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 89 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.443 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 93 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.443 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 97 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.444 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 6 requested 768 MB of Ram but no amount is available.
+18:54:23.446 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 10 requested 768 MB of Ram but no amount is available.
+18:54:23.446 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 14 requested 768 MB of Ram but no amount is available.
+18:54:23.446 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 18 requested 768 MB of Ram but no amount is available.
+18:54:23.446 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 22 requested 768 MB of Ram but no amount is available.
+18:54:23.446 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 26 requested 768 MB of Ram but no amount is available.
+18:54:23.446 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 30 requested 768 MB of Ram but no amount is available.
+18:54:23.446 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 34 requested 768 MB of Ram but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 38 requested 768 MB of Ram but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 42 requested 768 MB of Ram but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 46 requested 768 MB of Ram but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 50 requested 768 MB of Ram but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 54 requested 768 MB of Ram but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 58 requested 768 MB of Ram but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 62 requested 768 MB of Ram but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 66 requested 768 MB of Ram but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 70 requested 768 MB of Ram but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 74 requested 768 MB of Ram but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 78 requested 768 MB of Ram but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 82 requested 768 MB of Ram but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 86 requested 768 MB of Ram but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 90 requested 768 MB of Ram but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 94 requested 768 MB of Ram but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 98 requested 768 MB of Ram but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 6 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 10 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 14 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 18 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 22 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 26 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 30 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 34 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 38 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 42 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 46 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 50 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 54 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 58 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 62 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 66 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 70 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 74 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 78 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 82 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 86 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 90 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 94 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.447 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 98 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.450 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 7 requested 768 MB of Ram but no amount is available.
+18:54:23.451 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 11 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 15 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 19 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 23 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 27 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 31 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 35 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 39 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 43 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 47 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 51 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 55 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 59 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 63 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 67 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 71 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 75 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 79 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 83 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 87 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 91 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 95 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 99 requested 768 MB of Ram but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 7 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 11 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 15 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 19 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 23 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 27 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 31 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 35 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 39 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 43 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 47 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.452 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 51 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.453 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 55 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.453 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 59 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.453 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 63 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.453 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 67 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.453 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 71 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.453 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 75 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.453 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 79 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.453 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 83 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.453 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 87 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.453 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 91 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.455 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 95 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.456 [run-main-0] WARN  CloudletScheduler - 41.44: CloudletSchedulerTimeShared: Cloudlet 99 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.458 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 4 requested 768 MB of Ram but no amount is available.
+18:54:23.458 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 8 requested 768 MB of Ram but no amount is available.
+18:54:23.458 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 12 requested 768 MB of Ram but no amount is available.
+18:54:23.458 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 16 requested 768 MB of Ram but no amount is available.
+18:54:23.458 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 20 requested 768 MB of Ram but no amount is available.
+18:54:23.458 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 24 requested 768 MB of Ram but no amount is available.
+18:54:23.458 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 28 requested 768 MB of Ram but no amount is available.
+18:54:23.458 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 32 requested 768 MB of Ram but no amount is available.
+18:54:23.458 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 36 requested 768 MB of Ram but no amount is available.
+18:54:23.458 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 40 requested 768 MB of Ram but no amount is available.
+18:54:23.458 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 44 requested 768 MB of Ram but no amount is available.
+18:54:23.458 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 48 requested 768 MB of Ram but no amount is available.
+18:54:23.458 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 52 requested 768 MB of Ram but no amount is available.
+18:54:23.458 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 56 requested 768 MB of Ram but no amount is available.
+18:54:23.458 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 60 requested 768 MB of Ram but no amount is available.
+18:54:23.458 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 64 requested 768 MB of Ram but no amount is available.
+18:54:23.458 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 68 requested 768 MB of Ram but no amount is available.
+18:54:23.459 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 72 requested 768 MB of Ram but no amount is available.
+18:54:23.459 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 76 requested 768 MB of Ram but no amount is available.
+18:54:23.459 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 80 requested 768 MB of Ram but no amount is available.
+18:54:23.459 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 84 requested 768 MB of Ram but no amount is available.
+18:54:23.459 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 88 requested 768 MB of Ram but no amount is available.
+18:54:23.459 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 92 requested 768 MB of Ram but no amount is available.
+18:54:23.459 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 96 requested 768 MB of Ram but no amount is available.
+18:54:23.459 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 4 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.459 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 8 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.459 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 12 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.459 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 16 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.460 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 20 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.460 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 24 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.460 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 28 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.460 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 32 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.460 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 36 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.460 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 40 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.460 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 44 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.460 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 48 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.460 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 52 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.460 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 56 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.460 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 60 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.460 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 64 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.460 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 68 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.460 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 72 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.460 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 76 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.460 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 80 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.460 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 84 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.460 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 88 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.460 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 92 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.461 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 96 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.463 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 5 requested 768 MB of Ram but no amount is available.
+18:54:23.463 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 9 requested 768 MB of Ram but no amount is available.
+18:54:23.463 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 13 requested 768 MB of Ram but no amount is available.
+18:54:23.463 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 17 requested 768 MB of Ram but no amount is available.
+18:54:23.463 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 21 requested 768 MB of Ram but no amount is available.
+18:54:23.463 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 25 requested 768 MB of Ram but no amount is available.
+18:54:23.463 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 29 requested 768 MB of Ram but no amount is available.
+18:54:23.463 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 33 requested 768 MB of Ram but no amount is available.
+18:54:23.463 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 37 requested 768 MB of Ram but no amount is available.
+18:54:23.464 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 41 requested 768 MB of Ram but no amount is available.
+18:54:23.464 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 45 requested 768 MB of Ram but no amount is available.
+18:54:23.464 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 49 requested 768 MB of Ram but no amount is available.
+18:54:23.464 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 53 requested 768 MB of Ram but no amount is available.
+18:54:23.464 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 57 requested 768 MB of Ram but no amount is available.
+18:54:23.464 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 61 requested 768 MB of Ram but no amount is available.
+18:54:23.464 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 65 requested 768 MB of Ram but no amount is available.
+18:54:23.464 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 69 requested 768 MB of Ram but no amount is available.
+18:54:23.464 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 73 requested 768 MB of Ram but no amount is available.
+18:54:23.464 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 77 requested 768 MB of Ram but no amount is available.
+18:54:23.464 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 81 requested 768 MB of Ram but no amount is available.
+18:54:23.464 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 85 requested 768 MB of Ram but no amount is available.
+18:54:23.464 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 89 requested 768 MB of Ram but no amount is available.
+18:54:23.465 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 93 requested 768 MB of Ram but no amount is available.
+18:54:23.466 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 97 requested 768 MB of Ram but no amount is available.
+18:54:23.468 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 5 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.468 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 9 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.468 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 13 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.468 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 17 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.468 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 21 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.468 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 25 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.468 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 29 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.468 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 33 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.468 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 37 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.468 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 41 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.468 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 45 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.468 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 49 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.468 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 53 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.468 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 57 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.469 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 61 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.469 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 65 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.469 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 69 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.469 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 73 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.469 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 77 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.469 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 81 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.469 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 85 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.469 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 89 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.469 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 93 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.470 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 97 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.470 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 6 requested 768 MB of Ram but no amount is available.
+18:54:23.470 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 10 requested 768 MB of Ram but no amount is available.
+18:54:23.470 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 14 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 18 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 22 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 26 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 30 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 34 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 38 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 42 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 46 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 50 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 54 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 58 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 62 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 66 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 70 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 74 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 78 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 82 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 86 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 90 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 94 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 98 requested 768 MB of Ram but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 6 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 10 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 14 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 18 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 22 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 26 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 30 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 34 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 38 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 42 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 46 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 50 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 54 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 58 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 62 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 66 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 70 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 74 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.471 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 78 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.472 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 82 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.472 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 86 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.472 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 90 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.472 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 94 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.472 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 98 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.472 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 7 requested 768 MB of Ram but no amount is available.
+18:54:23.472 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 11 requested 768 MB of Ram but no amount is available.
+18:54:23.472 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 15 requested 768 MB of Ram but no amount is available.
+18:54:23.472 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 19 requested 768 MB of Ram but no amount is available.
+18:54:23.472 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 23 requested 768 MB of Ram but no amount is available.
+18:54:23.472 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 27 requested 768 MB of Ram but no amount is available.
+18:54:23.472 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 31 requested 768 MB of Ram but no amount is available.
+18:54:23.478 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 35 requested 768 MB of Ram but no amount is available.
+18:54:23.479 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 39 requested 768 MB of Ram but no amount is available.
+18:54:23.479 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 43 requested 768 MB of Ram but no amount is available.
+18:54:23.479 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 47 requested 768 MB of Ram but no amount is available.
+18:54:23.479 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 51 requested 768 MB of Ram but no amount is available.
+18:54:23.479 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 55 requested 768 MB of Ram but no amount is available.
+18:54:23.479 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 59 requested 768 MB of Ram but no amount is available.
+18:54:23.479 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 63 requested 768 MB of Ram but no amount is available.
+18:54:23.479 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 67 requested 768 MB of Ram but no amount is available.
+18:54:23.479 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 71 requested 768 MB of Ram but no amount is available.
+18:54:23.479 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 75 requested 768 MB of Ram but no amount is available.
+18:54:23.479 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 79 requested 768 MB of Ram but no amount is available.
+18:54:23.479 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 83 requested 768 MB of Ram but no amount is available.
+18:54:23.479 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 87 requested 768 MB of Ram but no amount is available.
+18:54:23.479 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 91 requested 768 MB of Ram but no amount is available.
+18:54:23.479 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 95 requested 768 MB of Ram but no amount is available.
+18:54:23.479 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 99 requested 768 MB of Ram but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 7 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 11 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 15 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 19 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 23 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 27 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 31 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 35 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 39 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 43 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 47 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 51 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 55 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 59 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 63 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 67 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 71 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 75 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 79 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 83 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 87 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 91 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 95 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.480 [run-main-0] WARN  CloudletScheduler - 41.76: CloudletSchedulerTimeShared: Cloudlet 99 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.487 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 4 requested 768 MB of Ram but no amount is available.
+18:54:23.487 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 8 requested 768 MB of Ram but no amount is available.
+18:54:23.487 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 12 requested 768 MB of Ram but no amount is available.
+18:54:23.488 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 16 requested 768 MB of Ram but no amount is available.
+18:54:23.488 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 20 requested 768 MB of Ram but no amount is available.
+18:54:23.488 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 24 requested 768 MB of Ram but no amount is available.
+18:54:23.488 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 28 requested 768 MB of Ram but no amount is available.
+18:54:23.488 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 32 requested 768 MB of Ram but no amount is available.
+18:54:23.488 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 36 requested 768 MB of Ram but no amount is available.
+18:54:23.488 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 40 requested 768 MB of Ram but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 44 requested 768 MB of Ram but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 48 requested 768 MB of Ram but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 52 requested 768 MB of Ram but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 56 requested 768 MB of Ram but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 60 requested 768 MB of Ram but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 64 requested 768 MB of Ram but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 68 requested 768 MB of Ram but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 72 requested 768 MB of Ram but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 76 requested 768 MB of Ram but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 80 requested 768 MB of Ram but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 84 requested 768 MB of Ram but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 88 requested 768 MB of Ram but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 92 requested 768 MB of Ram but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 96 requested 768 MB of Ram but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 4 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 8 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 12 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 16 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 20 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 24 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 28 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 32 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 36 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.489 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 40 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.490 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 44 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.490 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 48 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.490 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 52 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.490 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 56 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.490 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 60 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.490 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 64 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.490 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 68 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.490 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 72 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.490 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 76 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.490 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 80 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.490 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 84 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.490 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 88 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.490 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 92 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.490 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 96 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.492 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 5 requested 768 MB of Ram but no amount is available.
+18:54:23.492 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 9 requested 768 MB of Ram but no amount is available.
+18:54:23.492 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 13 requested 768 MB of Ram but no amount is available.
+18:54:23.492 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 17 requested 768 MB of Ram but no amount is available.
+18:54:23.492 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 21 requested 768 MB of Ram but no amount is available.
+18:54:23.492 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 25 requested 768 MB of Ram but no amount is available.
+18:54:23.492 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 29 requested 768 MB of Ram but no amount is available.
+18:54:23.492 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 33 requested 768 MB of Ram but no amount is available.
+18:54:23.492 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 37 requested 768 MB of Ram but no amount is available.
+18:54:23.492 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 41 requested 768 MB of Ram but no amount is available.
+18:54:23.492 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 45 requested 768 MB of Ram but no amount is available.
+18:54:23.492 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 49 requested 768 MB of Ram but no amount is available.
+18:54:23.492 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 53 requested 768 MB of Ram but no amount is available.
+18:54:23.492 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 57 requested 768 MB of Ram but no amount is available.
+18:54:23.492 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 61 requested 768 MB of Ram but no amount is available.
+18:54:23.492 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 65 requested 768 MB of Ram but no amount is available.
+18:54:23.492 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 69 requested 768 MB of Ram but no amount is available.
+18:54:23.492 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 73 requested 768 MB of Ram but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 77 requested 768 MB of Ram but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 81 requested 768 MB of Ram but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 85 requested 768 MB of Ram but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 89 requested 768 MB of Ram but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 93 requested 768 MB of Ram but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 97 requested 768 MB of Ram but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 5 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 9 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 13 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 17 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 21 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 25 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 29 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 33 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 37 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 41 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 45 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 49 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 53 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 57 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 61 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 65 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 69 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 73 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 77 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 81 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 85 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 89 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 93 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.493 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 97 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.494 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 6 requested 768 MB of Ram but no amount is available.
+18:54:23.494 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 10 requested 768 MB of Ram but no amount is available.
+18:54:23.494 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 14 requested 768 MB of Ram but no amount is available.
+18:54:23.494 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 18 requested 768 MB of Ram but no amount is available.
+18:54:23.494 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 22 requested 768 MB of Ram but no amount is available.
+18:54:23.494 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 26 requested 768 MB of Ram but no amount is available.
+18:54:23.494 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 30 requested 768 MB of Ram but no amount is available.
+18:54:23.494 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 34 requested 768 MB of Ram but no amount is available.
+18:54:23.494 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 38 requested 768 MB of Ram but no amount is available.
+18:54:23.494 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 42 requested 768 MB of Ram but no amount is available.
+18:54:23.494 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 46 requested 768 MB of Ram but no amount is available.
+18:54:23.494 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 50 requested 768 MB of Ram but no amount is available.
+18:54:23.494 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 54 requested 768 MB of Ram but no amount is available.
+18:54:23.494 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 58 requested 768 MB of Ram but no amount is available.
+18:54:23.494 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 62 requested 768 MB of Ram but no amount is available.
+18:54:23.494 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 66 requested 768 MB of Ram but no amount is available.
+18:54:23.494 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 70 requested 768 MB of Ram but no amount is available.
+18:54:23.494 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 74 requested 768 MB of Ram but no amount is available.
+18:54:23.494 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 78 requested 768 MB of Ram but no amount is available.
+18:54:23.494 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 82 requested 768 MB of Ram but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 86 requested 768 MB of Ram but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 90 requested 768 MB of Ram but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 94 requested 768 MB of Ram but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 98 requested 768 MB of Ram but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 6 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 10 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 14 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 18 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 22 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 26 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 30 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 34 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 38 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 42 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 46 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 50 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 54 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 58 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 62 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 66 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 70 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 74 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 78 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 82 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 86 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 90 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 94 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.495 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 98 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.500 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 7 requested 768 MB of Ram but no amount is available.
+18:54:23.503 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 11 requested 768 MB of Ram but no amount is available.
+18:54:23.504 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 15 requested 768 MB of Ram but no amount is available.
+18:54:23.504 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 19 requested 768 MB of Ram but no amount is available.
+18:54:23.504 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 23 requested 768 MB of Ram but no amount is available.
+18:54:23.504 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 27 requested 768 MB of Ram but no amount is available.
+18:54:23.504 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 31 requested 768 MB of Ram but no amount is available.
+18:54:23.504 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 35 requested 768 MB of Ram but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 39 requested 768 MB of Ram but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 43 requested 768 MB of Ram but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 47 requested 768 MB of Ram but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 51 requested 768 MB of Ram but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 55 requested 768 MB of Ram but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 59 requested 768 MB of Ram but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 63 requested 768 MB of Ram but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 67 requested 768 MB of Ram but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 71 requested 768 MB of Ram but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 75 requested 768 MB of Ram but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 79 requested 768 MB of Ram but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 83 requested 768 MB of Ram but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 87 requested 768 MB of Ram but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 91 requested 768 MB of Ram but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 95 requested 768 MB of Ram but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 99 requested 768 MB of Ram but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 7 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 11 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 15 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 19 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 23 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 27 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 31 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 35 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 39 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 43 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 47 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.505 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 51 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.506 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 55 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.506 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 59 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.506 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 63 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.506 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 67 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.506 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 71 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.506 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 75 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.506 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 79 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.506 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 83 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.506 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 87 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.506 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 91 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.506 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 95 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.506 [run-main-0] WARN  CloudletScheduler - 41.87: CloudletSchedulerTimeShared: Cloudlet 99 requested 1000 MB of Bandwidth but no amount is available.
+18:54:23.509 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 0 finished in Vm 0 and returned to broker.
+18:54:23.509 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 4 finished in Vm 0 and returned to broker.
+18:54:23.509 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 8 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 12 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 16 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 20 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 24 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 28 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 32 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 36 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 40 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 44 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 48 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 52 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 56 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 60 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 64 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 68 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 72 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 76 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 80 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 84 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 88 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 92 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 96 finished in Vm 0 and returned to broker.
+18:54:23.510 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 1 finished in Vm 1 and returned to broker.
+18:54:23.511 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 5 finished in Vm 1 and returned to broker.
+18:54:23.511 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 9 finished in Vm 1 and returned to broker.
+18:54:23.511 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 13 finished in Vm 1 and returned to broker.
+18:54:23.511 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 17 finished in Vm 1 and returned to broker.
+18:54:23.511 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 21 finished in Vm 1 and returned to broker.
+18:54:23.511 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 25 finished in Vm 1 and returned to broker.
+18:54:23.511 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 29 finished in Vm 1 and returned to broker.
+18:54:23.511 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 33 finished in Vm 1 and returned to broker.
+18:54:23.512 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 37 finished in Vm 1 and returned to broker.
+18:54:23.512 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 41 finished in Vm 1 and returned to broker.
+18:54:23.512 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 45 finished in Vm 1 and returned to broker.
+18:54:23.512 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 49 finished in Vm 1 and returned to broker.
+18:54:23.512 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 53 finished in Vm 1 and returned to broker.
+18:54:23.512 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 57 finished in Vm 1 and returned to broker.
+18:54:23.512 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 61 finished in Vm 1 and returned to broker.
+18:54:23.512 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 65 finished in Vm 1 and returned to broker.
+18:54:23.513 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 69 finished in Vm 1 and returned to broker.
+18:54:23.513 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 73 finished in Vm 1 and returned to broker.
+18:54:23.513 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 77 finished in Vm 1 and returned to broker.
+18:54:23.513 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 81 finished in Vm 1 and returned to broker.
+18:54:23.513 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 85 finished in Vm 1 and returned to broker.
+18:54:23.513 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 89 finished in Vm 1 and returned to broker.
+18:54:23.513 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 93 finished in Vm 1 and returned to broker.
+18:54:23.513 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 97 finished in Vm 1 and returned to broker.
+18:54:23.513 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 2 finished in Vm 2 and returned to broker.
+18:54:23.513 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 6 finished in Vm 2 and returned to broker.
+18:54:23.513 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 10 finished in Vm 2 and returned to broker.
+18:54:23.513 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 14 finished in Vm 2 and returned to broker.
+18:54:23.513 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 18 finished in Vm 2 and returned to broker.
+18:54:23.513 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 22 finished in Vm 2 and returned to broker.
+18:54:23.514 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 26 finished in Vm 2 and returned to broker.
+18:54:23.514 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 30 finished in Vm 2 and returned to broker.
+18:54:23.514 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 34 finished in Vm 2 and returned to broker.
+18:54:23.514 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 38 finished in Vm 2 and returned to broker.
+18:54:23.514 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 42 finished in Vm 2 and returned to broker.
+18:54:23.515 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 46 finished in Vm 2 and returned to broker.
+18:54:23.516 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 50 finished in Vm 2 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 54 finished in Vm 2 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 58 finished in Vm 2 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 62 finished in Vm 2 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 66 finished in Vm 2 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 70 finished in Vm 2 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 74 finished in Vm 2 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 78 finished in Vm 2 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 82 finished in Vm 2 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 86 finished in Vm 2 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 90 finished in Vm 2 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 94 finished in Vm 2 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 98 finished in Vm 2 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 3 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 7 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 11 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 15 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 19 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 23 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 27 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 31 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 35 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 39 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 43 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 47 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 51 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 55 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 59 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 63 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 67 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 71 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 75 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 79 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 83 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 87 finished in Vm 3 and returned to broker.
+18:54:23.517 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 91 finished in Vm 3 and returned to broker.
+18:54:23.518 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 95 finished in Vm 3 and returned to broker.
+18:54:23.518 [run-main-0] INFO  DatacenterBroker - 41.87: DatacenterBrokerSimple18: Cloudlet 99 finished in Vm 3 and returned to broker.
+18:54:23.525 [run-main-0] INFO  CloudSim - 41.98: Processing last events before simulation shutdown.
+18:54:23.534 [run-main-0] INFO  DatacenterBroker - 41.98: DatacenterBrokerSimple18 is shutting down...
+18:54:23.534 [run-main-0] INFO  DatacenterBroker - 41.98: DatacenterBrokerSimple18: Requesting Vm 3 destruction.
+18:54:23.534 [run-main-0] INFO  DatacenterBroker - 41.98: DatacenterBrokerSimple18: Requesting Vm 2 destruction.
+18:54:23.534 [run-main-0] INFO  DatacenterBroker - 41.98: DatacenterBrokerSimple18: Requesting Vm 1 destruction.
+18:54:23.534 [run-main-0] INFO  DatacenterBroker - 41.98: DatacenterBrokerSimple18: Requesting Vm 0 destruction.
+18:54:23.548 [run-main-0] INFO  Datacenter - 41.98: NetworkDatacenter: Vm 3 destroyed on Host 1/DC 1. 
+18:54:23.549 [run-main-0] INFO  Datacenter - 41.98: NetworkDatacenter: Vm 2 destroyed on Host 1/DC 1. 
+18:54:23.551 [run-main-0] INFO  Datacenter - 41.98: NetworkDatacenter: Vm 1 destroyed on Host 1/DC 1. 
+18:54:23.552 [run-main-0] INFO  Datacenter - 41.98: NetworkDatacenter: Vm 0 destroyed on Host 0/DC 1. 
+18:54:23.552 [run-main-0] INFO  CloudSim - Simulation: No more future events
+
+18:54:23.553 [run-main-0] INFO  CloudInformationService - CloudInformationService0: Notify all CloudSim Plus entities to shutdown.
+
+18:54:23.553 [run-main-0] INFO  Datacenter - 41.98: NetworkDatacenter1 is shutting down...
+18:54:23.553 [run-main-0] INFO  AbstractSwitch - EdgeSwitch2 is shutting down...
+18:54:23.553 [run-main-0] INFO  AbstractSwitch - EdgeSwitch3 is shutting down...
+18:54:23.553 [run-main-0] INFO  AbstractSwitch - EdgeSwitch4 is shutting down...
+18:54:23.553 [run-main-0] INFO  AbstractSwitch - EdgeSwitch5 is shutting down...
+18:54:23.553 [run-main-0] INFO  AbstractSwitch - EdgeSwitch6 is shutting down...
+18:54:23.553 [run-main-0] INFO  AbstractSwitch - EdgeSwitch7 is shutting down...
+18:54:23.553 [run-main-0] INFO  AbstractSwitch - EdgeSwitch8 is shutting down...
+18:54:23.553 [run-main-0] INFO  AbstractSwitch - EdgeSwitch9 is shutting down...
+18:54:23.553 [run-main-0] INFO  AbstractSwitch - EdgeSwitch10 is shutting down...
+18:54:23.553 [run-main-0] INFO  AbstractSwitch - EdgeSwitch11 is shutting down...
+18:54:23.553 [run-main-0] INFO  AbstractSwitch - EdgeSwitch12 is shutting down...
+18:54:23.553 [run-main-0] INFO  AbstractSwitch - EdgeSwitch13 is shutting down...
+18:54:23.553 [run-main-0] INFO  AbstractSwitch - RootSwitch14 is shutting down...
+18:54:23.553 [run-main-0] INFO  AbstractSwitch - AggregateSwitch15 is shutting down...
+18:54:23.553 [run-main-0] INFO  AbstractSwitch - AggregateSwitch16 is shutting down...
+18:54:23.553 [run-main-0] INFO  AbstractSwitch - AggregateSwitch17 is shutting down...
+18:54:23.553 [run-main-0] INFO  CloudSim - 
+================== Simulation finished at time 41.98 ==================
+
+18:54:23.553 [run-main-0] DEBUG CloudSim - DeferredQueue >> max size: 99 added to middle: 0 added to tail: 357
