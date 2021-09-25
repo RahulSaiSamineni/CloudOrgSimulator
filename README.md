@@ -5,7 +5,7 @@ Name: Rahul Sai Samineni
 ---
 #### Instructions
 ##### Development Environment
-+ **OS:** Mac OS
+
 + **IDE** IntelliJ IDEA
 + **SBT** : The assignment needs SBT to build the Project
 
